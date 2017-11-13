@@ -10,7 +10,7 @@ Aliyun OpenAPI Core SDK
 ## Install
 
 ``` bash
-$ composer require wenpeng/aliyun-core
+$ composer require xia406413214/aliyun-core
 ```
 
 ## License
