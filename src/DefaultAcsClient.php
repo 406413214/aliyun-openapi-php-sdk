@@ -1,5 +1,11 @@
 <?php
 namespace Heroin\Aliyun\Core;
+
+use Heroin\Aliyun\Core\Exception\ClientException;
+use Heroin\Aliyun\Core\Exception\ServerException;
+use Heroin\Aliyun\Core\Http\HttpHelper;
+use Heroin\Aliyun\Core\Regions\EndpointProvider;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -118,6 +124,7 @@ class DefaultAcsClient implements IAcsClient
     
     private function parseAcsResponse($body, $format)
     {
+        $respObject = null;
         if ("JSON" == $format)
         {    
             $respObject = json_decode($body);

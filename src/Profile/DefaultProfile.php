@@ -1,5 +1,12 @@
 <?php
 namespace Heroin\Aliyun\Core\Profile;
+
+use Heroin\Aliyun\Core\Auth\Credential;
+use Heroin\Aliyun\Core\Auth\ShaHmac1Signer;
+use Heroin\Aliyun\Core\Regions\Endpoint;
+use Heroin\Aliyun\Core\Regions\EndpointProvider;
+use Heroin\Aliyun\Core\Regions\ProductDomain;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

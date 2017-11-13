@@ -1,5 +1,10 @@
 <?php
 namespace Heroin\Aliyun\Core\Regions;
+
+define('ENABLE_HTTP_PROXY', false);
+define('HTTP_PROXY_IP', '127.0.0.1');
+define('HTTP_PROXY_PORT', '8888');
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
