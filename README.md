@@ -7,6 +7,10 @@
 ## Example
 
 ```php
+use Heroin\Aliyun\Core\Profile\DefaultProfile;
+use Heroin\Aliyun\Core\Regions\Config;
+use Heroin\Aliyun\Core\DefaultAcsClient;
+
 $config = new Config();
 $c->setEndPoint();
 $iClientProfile = DefaultProfile::getProfile("cn-shanghai", 'accessKeyId', 'accessKeySecret');
