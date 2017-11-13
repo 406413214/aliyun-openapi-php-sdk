@@ -4,6 +4,12 @@
 
 - PHP 5.4+
 
+## Install
+
+``` bash
+$ composer require heroin/aliyun-openapi-php-sdk
+```
+
 ## Example
 
 ```php
