@@ -1,0 +1,22 @@
+{
+  "name": "heroin/aliyun-openapi-php-sdk",
+  "description": "integration composer",
+  "keywords": [
+    "aliyun-openapi-php-sdk"
+  ],
+  "homepage": "https://github.com/406413214/aliyun-openapi-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiawenqiang",
+      "email": "406413214@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  }
+}
