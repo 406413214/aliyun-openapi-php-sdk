@@ -1,5 +1,5 @@
 <?php
-namespace heroin\Aliyun\Core\Regions;
+namespace Heroin\Aliyun\Core\Regions;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

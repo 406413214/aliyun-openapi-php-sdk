@@ -20,7 +20,7 @@
     "phpunit/phpunit": "4.*"
   },
   "autoload": {
-    "psr-4": {"Aliyun\\Core\\": "src"}
+    "psr-4": {"Heroin\\Aliyun\\Core\\": "src"}
   },
   "extra": {
     "branch-alias": {
