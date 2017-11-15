@@ -80,8 +80,8 @@ abstract class RoaAcsRequest extends AcsRequest
 	
 	private function prepareHeader($iSigner)
 	{
-		date_default_timezone_set("GMT");
-		$this->headers["Date"] = date($this->dateTimeFormat);
+        $rpcDate = date_add(new Date(), DateInterval::createFromDateString('-8 hours'));
+        $this->headers["Date"] = date_format($rpcDate, $this->dateTimeFormat);;
 		if(null == $this->acceptFormat)
 		{
 			$this->acceptFormat = "RAW";
